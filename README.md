@@ -17,15 +17,15 @@ http://localhost:4002/graphql
 ## JSON DE PRUEBAS
 # INSERT
 mutation{
-addCliente(nombre: "Juan", telefono:"098765433"){
-id,
+addCliente(nombre: "Carlos", telefono:"0985460231"){
+_id,
 nombre,
 telefono}
 }
 # CONSULTA
 {
   clientes {
-    id
+    _id
     nombre
     telefono
   }

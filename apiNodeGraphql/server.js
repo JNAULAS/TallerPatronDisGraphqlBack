@@ -21,7 +21,7 @@ const ClienteModel = mongoose.model('Cliente', clienteSchema);
 // Definicion de Graphql
 let schemaDB = buildSchema(`
 type Cliente{
-    id: Int,
+    _id: ID!,
     nombre: String,
     telefono: String
 }
